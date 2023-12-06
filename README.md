@@ -29,3 +29,12 @@ Libaries utilizadas nesse Projeto:
 - <a href="https://insert-koin.io/">Koin - </a> Uma estrutura de injeção de dependência leve e pragmática para Kotlin.
 - <a href="https://square.github.io/retrofit/">Retrofit 2 - </a> Type-safe HTTP client para Android por Square, Inc.
 - <a href="https://developer.android.com/guide/navigation/navigation-getting-started">Android Jetpack Navigation - </a> Componente de navegação projetado para aplicativos que têm uma atividade principal com vários destinos de fragmento.
+
+
+
+Imagens do projeto (em contrução!)
+
+![image](https://github.com/danilodox/EvolveUsers/assets/26839826/e6024ac1-31b7-487e-b6e0-2b6db342eb53)
+![image](https://github.com/danilodox/EvolveUsers/assets/26839826/02168e0b-96ec-41ec-b371-8afbed66bd7d)
+![image](https://github.com/danilodox/EvolveUsers/assets/26839826/0865a0c5-48bf-483f-8b7e-540bc01aaba4)
+
