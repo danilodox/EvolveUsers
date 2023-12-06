@@ -7,14 +7,21 @@ Em resumo, o aplicativo foi feito da seguinte forma: na tela principal o usuári
   A primeira opção (lista de usuários) contém uma lista de usuários que foram anteriomente cadastrados. caso clique em um usuário, em seguida irá para a tela de detalhes do usuário onde encontra-se as informãçoes do usuário.
   E ainda na tela de lista de usuários tem a opção de deletar o usuário através do botão "delete"
   
-
 *Obs: O app roda apartir da api 24. JVM 1.8 
       Android Gradle Puglin Version: 8.0.2
       Gradle Version: 8.0
 
 **Padrões de Projetos Adotados:**
 
-MVVM - Model-View-ViewModel.
+  MVVM - Model-View-ViewModel.
+
+![image](https://github.com/danilodox/EvolveUsers/assets/26839826/222131d7-2e8e-48b8-8f98-7679d63f6fdd)
+
+
+
+
+
+
 Libaries utilizadas nesse Projeto:
 
 - <a href="https://developer.android.com/topic/libraries/architecture/livedata">LiveData - </a> Uma classe armazenadora de dados observável.
