@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/screen_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            style="@style/HeadingText"
+            android:layout_marginBottom="55dp"
+            >
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_16dp"
+            android:text="@string/list_of_all_users"
+            style="@style/PrimaryButton"
+            android:background="@drawable/btn_background_cyan"
+            android:textStyle="normal">
+        </Button>
+
+        <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_16dp"
+            android:text="@string/register_user"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_background_navy_blue"
+            style="@style/SecondaryButton"
+            android:textStyle="normal">
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

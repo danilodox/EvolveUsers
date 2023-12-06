@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.signup.SignupFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/SimpleText"
+        android:gravity="center"
+        android:background="@drawable/screen_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Signup"
+            android:textStyle="bold"
+            android:paddingTop="@dimen/dimen_20sp"
+            android:textSize="@dimen/dimen_55dp"
+            android:paddingBottom="5dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/nomeEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:hint="@string/prompt_name"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true" />
+
+        <AutoCompleteTextView
+            android:id="@+id/sexoEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:hint="@string/prompt_sexo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:inputType="none"
+            android:selectAllOnFocus="true"
+            android:completionThreshold="1"
+            android:popupBackground="@color/white"
+            android:entries="@array/sex_options"
+            />
+
+        <EditText
+            android:id="@+id/userNameEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:hint="@string/prompt_username"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true" />
+
+        <EditText
+            android:id="@+id/passwordEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:hint="@string/prompt_password"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true" />
+
+        <EditText
+            android:id="@+id/fotoEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:hint="@string/prompt_foto"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true" />
+
+        <EditText
+            android:id="@+id/enderecoEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:hint="@string/prompt_endereco"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true" />
+
+        <EditText
+            android:id="@+id/emailEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            style="@style/SimpleText"
+            android:theme="@style/SimpleText"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:hint="@string/prompt_email"
+            android:ems="10"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true" />
+
+        <!--<EditText
+            android:id="@+id/dataEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:hint="@string/prompt_dataNascimento"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true" />-->
+
+
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/cpfCnpjEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:hint="@string/prompt_cpfCnpj"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true" />
+
+        <Button
+            android:id="@+id/btnDatePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="20.dp"
+            android:text="@string/prompt_dataNascimento"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:background="?android:attr/selectableItemBackground" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:calendarViewShown="false"
+            android:spinnersShown="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:calendarTextColor="@color/white"/>
+
+
+
+        <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="80dp"
+            android:background="@drawable/btn_background_cyan"
+            android:enabled="false"
+            android:text="@string/action_sign_in"
+            />
+
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="64dp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

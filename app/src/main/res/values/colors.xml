@@ -2,4 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="soft_cyan">#5DD3FF</color>
+    <color name="soft_cyan_gray">#E85FA4BD</color>
+    <color name="cyan_pale">#BEE1F3</color>
+    <color name="cyan_200">#28A8D8</color>
+    <color name="mint_green">#7FFF7F</color>
+    <color name="sky_blue">#87CEEB</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="navy_blue">#001F3F</color>
+    <color name="soft_yellow">#EDFFD700</color>
+    <color name="navy_blue_pale">#294059</color>
+    <color name="yellow_200">#B59904</color>
+    <color name="pale_pink">#FFB6C1</color>
+
+
 </resources>
